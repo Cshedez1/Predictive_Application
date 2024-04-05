@@ -1,8 +1,6 @@
-import streamlit as st
-import time
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import altair as alt
-import pickle 
-import base64 
+streamlit == 1.31.1
+matplotlib
+pandas
+numpy
+altair
+scikit-learn
