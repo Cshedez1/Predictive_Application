@@ -1,10 +1,10 @@
 import streamlit as st
-st.title('😃My first app')
+st.title('😃This App contains the Class Practice and the Built Predictive Application')
 
 
 #the addition of sidebar changes the userphase 
 
-st_name = st.sidebar.text_input('Enter your name', 'Andrew')
+st_name = st.sidebar.text_input('Enter your name', 'Hello Professor')
 
 # approach 1. st.write(f'Hello {st_name}!')
 
@@ -82,6 +82,16 @@ st.info("It's easy to build a streamlit app")
 
 
 #MAKING GRAPHS
+st.caption("Lesson 5 - Displaying Graphs") #Caption
+
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+
+rand=np.random.normal(1, 2, size=21)
+fig, ax = plt.subplots()
+ax.hist(rand, bins=15)#color = pink
+st.pyplot(fig)
 
 
 #Making Line graph
