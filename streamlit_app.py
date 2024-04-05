@@ -83,7 +83,7 @@ st.info("It's easy to build a streamlit app")
 
 #MAKING GRAPHS
 st.caption("Lesson 5 - Displaying Graphs") #Caption
-pip install matplotlib
+
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
